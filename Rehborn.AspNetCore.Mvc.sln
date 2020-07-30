@@ -1,0 +1,36 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30225.117
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Rehborn.AspNetCore.Mvc", "src\Rehborn.AspNetCore.Mvc\Rehborn.AspNetCore.Mvc.csproj", "{FD97DB7C-567F-4A01-8BE2-1D1CB634E624}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Rehborn.AspNetCore.Mvc.Tests", "src\Rehborn.AspNetCore.Mvc.Tests\Rehborn.AspNetCore.Mvc.Tests.csproj", "{2436C492-FEC5-408F-BC9D-E5D29DDEDC67}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Tests", "Tests", "{A07817D7-B007-4925-A396-58D6E6616C50}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{FD97DB7C-567F-4A01-8BE2-1D1CB634E624}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FD97DB7C-567F-4A01-8BE2-1D1CB634E624}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FD97DB7C-567F-4A01-8BE2-1D1CB634E624}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FD97DB7C-567F-4A01-8BE2-1D1CB634E624}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2436C492-FEC5-408F-BC9D-E5D29DDEDC67}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2436C492-FEC5-408F-BC9D-E5D29DDEDC67}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2436C492-FEC5-408F-BC9D-E5D29DDEDC67}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2436C492-FEC5-408F-BC9D-E5D29DDEDC67}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{2436C492-FEC5-408F-BC9D-E5D29DDEDC67} = {A07817D7-B007-4925-A396-58D6E6616C50}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {5CA53D39-4B5A-4243-9F4F-42B99E9FB5AC}
+	EndGlobalSection
+EndGlobal
