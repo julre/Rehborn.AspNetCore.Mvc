@@ -7,7 +7,6 @@ namespace Rehborn.AspNetCore.Mvc.Tests
     [Route("api/[controller]")]
     public class WeatherForecastController : ControllerBase
     {
-
         [HttpGet]
         public string Get()
         {
